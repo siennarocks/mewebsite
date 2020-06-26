@@ -1,0 +1,31 @@
+html{
+    scroll-behavior: smooth;
+}
+.jumbotron{
+    height: 90vh;
+    background-image: url(jumbotron.jpg);
+    background-size: cover;
+    background-position-y: center;
+    align-self: center
+}
+
+.container2{
+    text-align: center
+}
+.first-thing{
+  text-align: center;
+  color: #B5FAE1 ;
+}
+
+
+.second-thing{ 
+  text-align: center;
+  color: #F4E3F8 ;
+  
+}
+  
+  
+
+
+
+  }
