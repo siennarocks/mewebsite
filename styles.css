@@ -17,15 +17,18 @@ html{
   color: #B5FAE1 ;
 }
 
-
 .second-thing{ 
   text-align: center;
   color: #F4E3F8 ;
-  
 }
-  
-  
+
+.menubtn{
+  background-color:  #B5FAE1;
+  border-color: black;
+}
 
 
-
-  }
+#button-addon2{
+  background-color: black;
+  border-color:white;
+}
