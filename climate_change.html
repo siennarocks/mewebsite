@@ -32,9 +32,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="climate_data.png"
-          width="150" height="290" 
-          class="d-block w-100" alt="...">
+          <canvas id="myChart" width="150" height="100"></canvas>
           <div class="carousel-caption d-none d-md-block">
             <p class="h3 text-dark">World climate change shown over 140 years</p>
             <p class="h4 text-secondary">(1880 - 2020)</p>
@@ -59,13 +57,20 @@
     </div>
   </div>
   <div class="container">
-    <canvas id="myChart" width="400" height="400"></canvas>
+    <canvas id="mybarChart" width="150" height="100"></canvas> 
+    
   </div>
+  <div class="container">
+    <canvas id="myscatterChart" width="150" height="100"></canvas> 
+    </div>
+
     <!--arisal end--> 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="climate-chart.js"></script>
   </body>
 </html>
